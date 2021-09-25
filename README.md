@@ -6,8 +6,7 @@ It allows the user to store the data so that if they have to close the window an
 
 ## Screenshots
 
-### Start 
-
+![Imgur](https://i.imgur.com/fB2chzK.png)
 
 ## Installation
 
