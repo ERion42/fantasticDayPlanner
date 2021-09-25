@@ -74,3 +74,7 @@ textarea {
 .outer {
   margin-top: 0px;
 }
+
+#restoreBtn {
+  width: 100%;
+}
