@@ -20,6 +20,12 @@ $(".row").children("div.timeBlock").each(function() {
     
 })
 
+renderLastValues();
+
+function renderLastValues() {
+
+
+}
 
 // Save button
 // on click, localstorage.setitem("")
