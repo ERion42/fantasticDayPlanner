@@ -28,342 +28,137 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
+
+
+    <section class="container">
       <!-- Timeblocks go here -->
-      
-      <section class="container scheduler">
-
-        <!-- 1am -->
-        <section class="row">
-          <div class="col-2 hour">
-            01AM
-          </div>
-          <textarea class="col-9 past outer persisted-text" name="1am" class="01" id="1" placeholder="Do it!"></textarea>
-          <div class="col-1 saveBtn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
-              <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
-            </svg>
-          </div>
-        </section>
-
-
-        <!-- 2am -->
-        <section class="row">
-          <div class="col-2 hour">
-            02AM
-          </div>
-          <textarea class="col-9 past outer persisted-text" name="2am" class="02" id="2" placeholder="Do it!"></textarea>
-          <div class="col-1 saveBtn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
-              <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
-            </svg>
-          </div>
-        </section>
-
-        <!-- 3am -->
-        <section class="row">
-          <div class="col-2 hour">
-            03AM
-          </div>
-          <textarea class="col-9 past outer persisted-text" name="3am" class="03" id="3" placeholder="Do it!"></textarea>
-          <div class="col-1 saveBtn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
-              <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
-            </svg>
-          </div>
-        </section>
-
-
-        <!-- 4am -->
-        <section class="row">
-          <div class="col-2 hour">
-            04AM
-          </div>
-          <textarea class="col-9 past outer persisted-text" name="4am" class="04" id="4" placeholder="Do it!"></textarea>
-          <div class="col-1 saveBtn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
-              <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
-            </svg>
-          </div>
-        </section>
-
-
-        <!-- 5am -->
-        <section class="row">
-          <div class="col-2 hour">
-            05AM
-          </div>
-          <textarea class="col-9 past outer persisted-text" name="5am" class="05" id="5" placeholder="Do it!"></textarea>
-          <div class="col-1 saveBtn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
-              <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
-            </svg>
-          </div>
-        </section>
-
-
-        <!-- 6am -->
-        <section class="row">
-          <div class="col-2 hour">
-            06AM
-          </div>
-          <textarea class="col-9 past outer persisted-text" name="6am" class="06" id="6" placeholder="Do it!"></textarea>
-          <div class="col-1 saveBtn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
-              <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
-            </svg>
-          </div>
-        </section>
-
-
-        <!-- 7am -->
-        <section class="row">
-          <div class="col-2 hour">
-            07AM
-          </div>
-          <textarea class="col-9 past outer persisted-text" name="7am" class="07" id="7" placeholder="Do it!"></textarea>
-          <div class="col-1 saveBtn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
-              <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
-            </svg>
-          </div>
-        </section>
-
-        <!-- 8am -->
-        <section class="row">
-          <div class="col-2 hour">
-            08AM
-          </div>
-          <textarea class="col-9 past outer persisted-text" name="9am" class="08" id="8" placeholder="Do it!"></textarea>
-          <div class="col-1 saveBtn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
-              <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
-            </svg>
-          </div>
-        </section>
 
         <!-- 9am -->
         <section class="row">
-          <div class="col-2 hour">
-            09AM
+          <div class="col-2 timeBlock hour">
+            9AM
           </div>
-          <textarea class="col-9 past outer persisted-text" name="9am" class="09" id="9" placeholder="Do it!"></textarea>
-          <div class="col-1 saveBtn">
+          <textarea class="col-9 outer persisted-text" name="9am" class="09" id="9" placeholder="Do it!"></textarea>
+          <button class="col-1 saveBtn" id="btn9am">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
               <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
             </svg>
-          </div>
+          </button>
         </section>
 
 
         <!-- 10am -->
         <section class="row">
-          <div class="col-2 hour">
+          <div class="col-2 timeBlock hour">
             10AM
           </div>
-          <textarea class="col-9 past outer persisted-text" name="10am" class="10" id="10" placeholder="Do it!"></textarea>
-          <div class="col-1 saveBtn">
+          <textarea class="col-9  outer persisted-text" name="10am" class="10" id="10" placeholder="Do it!"></textarea>
+          <button class="col-1 saveBtn" id="btn10am">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
               <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
             </svg>
-          </div>
+          </button>
         </section>
 
 
         <!-- 11am -->
         <section class="row">
-          <div class="col-2 hour">
+          <div class="col-2 timeBlock hour">
             11AM
           </div>
-          <textarea class="col-9 past outer persisted-text" name="11am" class="11" id="11" placeholder="Do it!"></textarea>
-          <div class="col-1 saveBtn">
+          <textarea class="col-9  outer persisted-text" name="11am" class="11" id="11" placeholder="Do it!"></textarea>
+          <button class="col-1 saveBtn" id="btn11am">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
               <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
             </svg>
-          </div>
+          </button>
         </section>
 
 
         <!-- 12pm -->
         <section class="row">
-          <div class="col-2 hour">
+          <div class="col-2 timeBlock hour">
             12PM
           </div>
-          <textarea class="col-9 past outer persisted-text" name="12pm" class="12" id="12" placeholder="Do it!"></textarea>
-          <div class="col-1 saveBtn">
+          <textarea class="col-9  outer persisted-text" name="12pm" class="12" id="12" placeholder="Do it!"></textarea>
+          <button class="col-1 saveBtn" id="btn12pm">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
               <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
             </svg>
-          </div>
+          </button>
         </section>
 
 
         <!-- 01pm -->
         <section class="row">
-          <div class="col-2 hour">
-            01PM
+          <div class="col-2 timeBlock hour">
+            1PM
           </div>
-          <textarea class="col-9 past outer persisted-text" name="01pm" class="13" id="13" placeholder="Do it!"></textarea>
-          <div class="col-1 saveBtn">
+          <textarea class="col-9  outer persisted-text" name="01pm" class="13" id="13" placeholder="Do it!"></textarea>
+          <button class="col-1 saveBtn" id="btn1pm">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
               <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
             </svg>
-          </div>
+          </button>
         </section>
 
 
         <!-- 02pm -->
         <section class="row">
-          <div class="col-2 hour">
-            02PM
+          <div class="col-2 timeBlock hour">
+            2PM
           </div>
-          <textarea class="col-9 past outer persisted-text" name="02pm" class="14" id="14" placeholder="Do it!"></textarea>
-          <div class="col-1 saveBtn">
+          <textarea class="col-9  outer persisted-text" name="02pm" class="14" id="14" placeholder="Do it!"></textarea>
+          <button class="col-1 saveBtn" id="btn2pm">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
               <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
             </svg>
-          </div>
+          </button>
         </section>
 
 
         <!-- 03pm -->
         <section class="row">
-          <div class="col-2 hour">
-            03PM
+          <div class="col-2 timeBlock hour">
+            3PM
           </div>
-          <textarea class="col-9 past outer persisted-text" name="03pm" class="15" id="15" placeholder="Do it!"></textarea>
-          <div class="col-1 saveBtn">
+          <textarea class="col-9  outer persisted-text" name="03pm" class="15" id="15" placeholder="Do it!"></textarea>
+          <button class="col-1 saveBtn" id="btn3pm">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
               <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
             </svg>
-          </div>
+          </button>
         </section>
 
 
         <!-- 04pm -->
         <section class="row">
-          <div class="col-2 hour">
-            04PM
+          <div class="col-2 timeBlock hour">
+            4PM
           </div>
-          <textarea class="col-9 past outer persisted-text" name="04pm" class="16" id="16" placeholder="Do it!"></textarea>
-          <div class="col-1 saveBtn">
+          <textarea class="col-9  outer persisted-text" name="04pm" class="16" id="16" placeholder="Do it!"></textarea>
+          <button class="col-1 saveBtn" id="btn4pm">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
               <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
             </svg>
-          </div>
+          </button>
         </section>
 
 
         <!-- 05pm -->
         <section class="row">
-          <div class="col-2 hour">
-            05PM
+          <div class="col-2 hour timeBlock">
+            5PM
           </div>
-          <textarea class="col-9 past outer persisted-text" name="05pm" class="17" id="17" placeholder="Do it!"></textarea>
-          <div class="col-1 saveBtn">
+          <textarea class="col-9 outer persisted-text" name="05pm" class="17" id="17" placeholder="Do it!"></textarea>
+          <button class="col-1 saveBtn" id="btn5pm">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
               <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
             </svg>
-          </div>
+          </button>
         </section>
 
 
-        <!-- 06pm -->
-        <section class="row">
-          <div class="col-2 hour">
-            06PM
-          </div>
-          <textarea class="col-9 past outer persisted-text" name="06pm" class="18" id="18" placeholder="Do it!"></textarea>
-          <div class="col-1 saveBtn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
-              <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
-            </svg>
-          </div>
-        </section>
-
-
-        <!-- 07pm -->
-        <section class="row">
-          <div class="col-2 hour">
-            07PM
-          </div>
-          <textarea class="col-9 past outer persisted-text" name="07pm" class="19" id="19" placeholder="Do it!"></textarea>
-          <div class="col-1 saveBtn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
-              <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
-            </svg>
-          </div>
-        </section>
-
-
-        <!-- 08pm -->
-        <section class="row">
-          <div class="col-2 hour">
-            08PM
-          </div>
-          <textarea class="col-9 past outer persisted-text" name="08pm" class="20" id="20" placeholder="Do it!"></textarea>
-          <div class="col-1 saveBtn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
-              <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
-            </svg>
-          </div>
-        </section>
-
-
-        <!-- 09pm -->
-        <section class="row">
-          <div class="col-2 hour">
-            09PM
-          </div>
-          <textarea class="col-9 past outer persisted-text" name="09pm" class="21" id="21" placeholder="Do it!"></textarea>
-          <div class="col-1 saveBtn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
-              <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
-            </svg>
-          </div>
-        </section>
-
-
-        <!-- 10pm -->
-        <section class="row">
-          <div class="col-2 hour">
-            10PM
-          </div>
-          <textarea class="col-9 past outer persisted-text" name="10pm" class="22" id="22" placeholder="Do it!"></textarea>
-          <div class="col-1 saveBtn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
-              <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
-            </svg>
-          </div>
-        </section>
-
-
-        <!-- 11pm -->
-        <section class="row">
-          <div class="col-2 hour">
-            11PM
-          </div>
-          <textarea class="col-9 past outer persisted-text" name="11pm" class="23" id="23" placeholder="Do it!"></textarea>
-          <div class="col-1 saveBtn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
-              <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
-            </svg>
-          </div>
-        </section>
-
-
-        <!-- 12pm -->
-        <section class="row">
-          <div class="col-2 hour">
-            12PM
-          </div>
-          <textarea class="col-9 past outer persisted-text" name="12pm" class="24" id="24" placeholder="Do it!"></textarea>
-          <div class="col-1 saveBtn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
-              <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
-            </svg>
-          </div>
-        </section>
 
 
 
